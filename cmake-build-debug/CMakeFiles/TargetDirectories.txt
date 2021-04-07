@@ -1,0 +1,8 @@
+/home/charity/CLionProjects/openStreetMap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/charity/CLionProjects/openStreetMap/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/charity/CLionProjects/openStreetMap/cmake-build-debug/CMakeFiles/test.dir
+/home/charity/CLionProjects/openStreetMap/cmake-build-debug/CMakeFiles/openStreetMap.dir
+/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/CMakeFiles/rebuild_cache.dir
+/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/CMakeFiles/edit_cache.dir
+/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/googletest/CMakeFiles/rebuild_cache.dir
+/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/googletest/CMakeFiles/edit_cache.dir

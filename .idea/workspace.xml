@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="openStreetMap" targetName="openStreetMap" />
+      <config projectName="openStreetMap" targetName="test" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b5d0f71-5dc0-4b87-8111-e18e08d80729" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/openStreetMap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake/FindCairo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake/FindGraphicsMagick.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map.osm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugiconfig.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/images/dom_tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/images/vs2005_link1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/images/vs2005_link2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/images/vs2005_pch1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/images/vs2005_pch2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/images/vs2005_pch3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/images/vs2005_pch4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/images/vs2010_link1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/images/vs2010_link2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/manual.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/quickstart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/character.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/custom_memory_management.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/include.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/load_error_handling.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/load_file.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/load_memory.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/load_options.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/load_stream.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/modify_add.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/modify_base.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/modify_remove.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/save_custom_writer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/save_declaration.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/save_file.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/save_options.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/save_stream.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/save_subtree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/text.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/transitions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/traverse_base.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/traverse_iter.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/traverse_predicate.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/traverse_rangefor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/traverse_walker.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/tree.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/weekly-shift_jis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/weekly-utf-16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/weekly-utf-8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/xgconsole.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/xpath_error.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/xpath_query.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/xpath_select.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/docs/samples/xpath_variables.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/cocoapods_push.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/natvis/pugixml.natvis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/natvis/pugixml_compact.natvis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/nuget/build/native/pugixml-propertiesui.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/nuget/build/native/pugixml.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/nuget/pugixml.nuspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/nuget_build.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/premake4.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml-config.cmake.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml.podspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml_airplay.mkf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml_codeblocks.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml_codelite.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml_dll.rc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml_vs2005.vcproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml_vs2005_static.vcproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml_vs2008.vcproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml_vs2008_static.vcproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml_vs2010.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml_vs2010_static.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml_vs2013.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml_vs2013_static.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml_vs2015.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml_vs2015_static.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml_vs2017.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml_vs2017_static.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml_vs2019.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/scripts/pugixml_vs2019_static.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/src/pugiconfig.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/src/pugixml.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml-1.11/src/pugixml.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pugixml.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/route_model.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/route_model.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/route_planner.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/route_planner.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/utest_rp_a_star_search.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thirdparty/googletest/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/CMakeLists.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qqJxx2g5EkXzPsdoIifeb7VFig" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scr" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.openStreetMap">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openStreetMap" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openStreetMap" RUN_TARGET_NAME="test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="openStreetMap" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openStreetMap" TARGET_NAME="openStreetMap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="openStreetMap" RUN_TARGET_NAME="openStreetMap">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.openStreetMap" />
+      <item itemvalue="Google Test.test" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b5d0f71-5dc0-4b87-8111-e18e08d80729" name="Default Changelist" comment="" />
+      <created>1617801437297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617801437297</updated>
+      <workItem from="1617801439060" duration="3532000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
