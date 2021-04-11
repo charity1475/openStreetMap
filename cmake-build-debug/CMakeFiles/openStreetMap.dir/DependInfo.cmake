@@ -14,6 +14,8 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../thirdparty/googletest/googletest/include"
+  "../thirdparty/googletest/googletest"
   "/usr/local/include/io2d"
   "/usr/include/cairo"
   "/usr/include/GraphicsMagick"

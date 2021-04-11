@@ -459,3 +459,31 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/charity/CLionProjects/openStreetMap/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_47340/fast && /usr/bin/make  -f CMakeFiles/cmTC_47340.dir/build.make CMakeFiles/cmTC_47340.dir/build
+make[1]: Entering directory '/home/charity/CLionProjects/openStreetMap/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47340.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_47340.dir/CheckIncludeFile.c.o   -c /home/charity/CLionProjects/openStreetMap/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_47340
+/home/charity/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47340.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_47340.dir/CheckIncludeFile.c.o  -o cmTC_47340 
+make[1]: Leaving directory '/home/charity/CLionProjects/openStreetMap/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/charity/CLionProjects/openStreetMap/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c9faa/fast && /usr/bin/make  -f CMakeFiles/cmTC_c9faa.dir/build.make CMakeFiles/cmTC_c9faa.dir/build
+make[1]: Entering directory '/home/charity/CLionProjects/openStreetMap/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9faa.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c9faa.dir/CheckFunctionExists.c.o   -c /home/charity/clion/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c9faa
+/home/charity/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9faa.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c9faa.dir/CheckFunctionExists.c.o  -o cmTC_c9faa  -lpthread 
+make[1]: Leaving directory '/home/charity/CLionProjects/openStreetMap/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+

@@ -22,6 +22,7 @@ set(IO2D_WITHOUT_TESTS 1)
 
 # Add the pugixml and GoogleTest library subdirectories
 add_subdirectory(thirdparty/pugixml)
+include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 add_subdirectory(thirdparty/googletest)
 
 # Add project executable
