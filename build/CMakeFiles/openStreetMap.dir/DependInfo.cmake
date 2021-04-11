@@ -14,6 +14,8 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/include"
+  "../thirdparty/pugixml/src"
   "/usr/local/include/io2d"
   "/usr/include/cairo"
   "/usr/include/GraphicsMagick"
@@ -21,6 +23,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/charity/CLionProjects/openStreetMap/build/thirdparty/pugixml/CMakeFiles/pugixml-static.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

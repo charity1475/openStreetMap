@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /usr/local/include/io2d -isystem /usr/include/cairo -isystem /usr/include/GraphicsMagick 
+CXX_INCLUDES = -I/include -I/home/charity/CLionProjects/openStreetMap/thirdparty/pugixml/src -isystem /usr/local/include/io2d -isystem /usr/include/cairo -isystem /usr/include/GraphicsMagick 
 

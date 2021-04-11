@@ -146,6 +146,7 @@ test: CMakeFiles/test.dir/src/route_model.cpp.o
 test: CMakeFiles/test.dir/build.make
 test: lib/libgtest_maind.a
 test: lib/libgtestd.a
+test: ../lib/libpugixml.a
 test: CMakeFiles/test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/charity/CLionProjects/openStreetMap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)

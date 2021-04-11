@@ -13,6 +13,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../thirdparty/pugixml/src"
   "../thirdparty/googletest/googletest/include"
   "../thirdparty/googletest/googletest"
   )
@@ -21,6 +22,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   "/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/CMakeFiles/pugixml-static.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -155,6 +155,7 @@ openStreetMap: /usr/lib/x86_64-linux-gnu/libtiff.so
 openStreetMap: /usr/lib/x86_64-linux-gnu/libexpat.so
 openStreetMap: /usr/lib/x86_64-linux-gnu/liblzma.so
 openStreetMap: /usr/lib/x86_64-linux-gnu/libX11.so
+openStreetMap: ../lib/libpugixml.a
 openStreetMap: CMakeFiles/openStreetMap.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/charity/CLionProjects/openStreetMap/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable openStreetMap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/openStreetMap.dir/link.txt --verbose=$(VERBOSE)
