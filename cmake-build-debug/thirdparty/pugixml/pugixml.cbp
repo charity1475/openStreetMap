@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pugixml"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\thirdparty\;CMake Files\thirdparty\googletest\;CMake Files\thirdparty\googletest\googlemock\;CMake Files\thirdparty\googletest\googlemock\cmake\;CMake Files\thirdparty\googletest\googletest\;CMake Files\thirdparty\googletest\googletest\cmake\;CMake Files\thirdparty\pugixml\;CMake Files\thirdparty\pugixml\scripts\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\io2d\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pugixml-static">
+				<Option output="/home/charity/CLionProjects/openStreetMap/lib/libpugixml.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/charity/CLionProjects/openStreetMap/thirdparty/pugixml/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 pugixml-static"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pugixml-static/fast">
+				<Option output="/home/charity/CLionProjects/openStreetMap/lib/libpugixml.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/charity/CLionProjects/openStreetMap/thirdparty/pugixml/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 pugixml-static/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/charity/CLionProjects/openStreetMap/cmake-build-debug/thirdparty/pugixml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/charity/CLionProjects/openStreetMap/thirdparty/pugixml/src/pugixml.cpp">
+			<Option target="pugixml-static"/>
+		</Unit>
+		<Unit filename="/home/charity/CLionProjects/openStreetMap/thirdparty/pugixml/src/pugixml.hpp">
+			<Option target="pugixml-static"/>
+		</Unit>
+		<Unit filename="/home/charity/CLionProjects/openStreetMap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/charity/CLionProjects/openStreetMap/thirdparty/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdparty\googletest\"/>
+		</Unit>
+		<Unit filename="/home/charity/CLionProjects/openStreetMap/thirdparty/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdparty\googletest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/charity/CLionProjects/openStreetMap/thirdparty/googletest/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\thirdparty\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/charity/CLionProjects/openStreetMap/thirdparty/googletest/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\thirdparty\googletest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/charity/CLionProjects/openStreetMap/thirdparty/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdparty\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/charity/CLionProjects/openStreetMap/thirdparty/googletest/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\thirdparty\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/charity/CLionProjects/openStreetMap/thirdparty/googletest/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\thirdparty\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/charity/CLionProjects/openStreetMap/thirdparty/googletest/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\thirdparty\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/charity/CLionProjects/openStreetMap/thirdparty/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\thirdparty\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/charity/CLionProjects/openStreetMap/thirdparty/pugixml/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdparty\pugixml\"/>
+		</Unit>
+		<Unit filename="/home/charity/CLionProjects/openStreetMap/thirdparty/pugixml/scripts/pugixml-config.cmake.in">
+			<Option virtualFolder="CMake Files\thirdparty\pugixml\scripts\"/>
+		</Unit>
+		<Unit filename="/home/charity/CLionProjects/openStreetMap/thirdparty/pugixml/scripts/pugixml.pc.in">
+			<Option virtualFolder="CMake Files\thirdparty\pugixml\scripts\"/>
+		</Unit>
+		<Unit filename="/home/charity/CLionProjects/openStreetMap/../../../../usr/local/lib/cmake/io2d/io2dConfig-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\io2d\"/>
+		</Unit>
+		<Unit filename="/home/charity/CLionProjects/openStreetMap/../../../../usr/local/lib/cmake/io2d/io2dConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\io2d\"/>
+		</Unit>
+		<Unit filename="/home/charity/CLionProjects/openStreetMap/cmake/FindCairo.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/charity/CLionProjects/openStreetMap/cmake/FindGraphicsMagick.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
