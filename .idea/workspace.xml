@@ -6,9 +6,9 @@
       <config projectName="openStreetMap" targetName="ExperimentalConfigure" />
       <config projectName="openStreetMap" targetName="ExperimentalTest" />
       <config projectName="openStreetMap" targetName="NightlyMemCheck" />
-      <config projectName="openStreetMap" targetName="ContinuousCoverage" />
       <config projectName="openStreetMap" targetName="ContinuousTest" />
       <config projectName="openStreetMap" targetName="NightlyCoverage" />
+      <config projectName="openStreetMap" targetName="ContinuousCoverage" />
       <config projectName="openStreetMap" targetName="NightlyTest" />
       <config projectName="openStreetMap" targetName="ContinuousSubmit" />
       <config projectName="openStreetMap" targetName="pugixml-static" />
@@ -18,22 +18,22 @@
       <config projectName="openStreetMap" targetName="NightlyUpdate" />
       <config projectName="openStreetMap" targetName="test" />
       <config projectName="openStreetMap" targetName="ExperimentalUpdate" />
-      <config projectName="openStreetMap" targetName="ContinuousConfigure" />
       <config projectName="openStreetMap" targetName="Nightly" />
+      <config projectName="openStreetMap" targetName="ContinuousConfigure" />
       <config projectName="openStreetMap" targetName="gmock" />
       <config projectName="openStreetMap" targetName="gtest_main" />
       <config projectName="openStreetMap" targetName="ContinuousStart" />
       <config projectName="openStreetMap" targetName="ExperimentalMemCheck" />
       <config projectName="openStreetMap" targetName="gtest" />
-      <config projectName="openStreetMap" targetName="ContinuousBuild" />
       <config projectName="openStreetMap" targetName="Experimental" />
-      <config projectName="openStreetMap" targetName="ExperimentalSubmit" />
+      <config projectName="openStreetMap" targetName="ContinuousBuild" />
       <config projectName="openStreetMap" targetName="NightlyConfigure" />
-      <config projectName="openStreetMap" targetName="Continuous" />
+      <config projectName="openStreetMap" targetName="ExperimentalSubmit" />
       <config projectName="openStreetMap" targetName="NightlyBuild" />
+      <config projectName="openStreetMap" targetName="Continuous" />
       <config projectName="openStreetMap" targetName="ContinuousUpdate" />
-      <config projectName="openStreetMap" targetName="NightlyMemoryCheck" />
       <config projectName="openStreetMap" targetName="NightlySubmit" />
+      <config projectName="openStreetMap" targetName="NightlyMemoryCheck" />
       <config projectName="openStreetMap" targetName="openStreetMap" />
       <config projectName="openStreetMap" targetName="ExperimentalStart" />
       <config projectName="openStreetMap" targetName="gmock_main" />
@@ -46,351 +46,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5d0f71-5dc0-4b87-8111-e18e08d80729" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/openStreetMap.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/openStreetMap.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/openStreetMap.dir/src/main.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/openStreetMap.dir/src/model.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/openStreetMap.dir/src/render.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/openStreetMap.dir/src/route_model.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/openStreetMap.dir/src/route_planner.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/src/model.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/src/route_model.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/src/route_planner.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/test/utest_rp_a_star_search.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/libgmock.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/libgmock_main.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/libgtest.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/lib/libgtest_main.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/openStreetMap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/CTestTestfile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock_main.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock_main.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock_main.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock_main.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock_main.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock_main.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock_main.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock_main.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/CTestTestfile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googlemock/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/Export/lib/cmake/GTest/GTestTargets-noconfig.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/Export/lib/cmake/GTest/GTestTargets.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest_main.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest_main.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest_main.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest_main.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest_main.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest_main.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest_main.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest_main.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest_main.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/CTestTestfile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/generated/GTestConfig.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/generated/GTestConfigVersion.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/generated/gmock.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/generated/gmock_main.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/generated/gtest.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/googletest/googletest/generated/gtest_main.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/Continuous.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/Continuous.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/Continuous.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/Continuous.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousBuild.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousBuild.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousBuild.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousBuild.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousConfigure.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousConfigure.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousConfigure.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousConfigure.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousCoverage.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousCoverage.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousCoverage.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousCoverage.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousMemCheck.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousMemCheck.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousMemCheck.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousMemCheck.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousStart.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousStart.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousStart.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousStart.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousSubmit.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousSubmit.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousSubmit.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousTest.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousTest.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousTest.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousTest.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousUpdate.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousUpdate.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousUpdate.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ContinuousUpdate.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/Experimental.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/Experimental.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/Experimental.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/Experimental.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalBuild.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalBuild.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalBuild.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalBuild.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalConfigure.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalConfigure.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalConfigure.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalConfigure.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalCoverage.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalCoverage.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalCoverage.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalCoverage.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalMemCheck.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalMemCheck.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalMemCheck.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalMemCheck.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalStart.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalStart.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalStart.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalSubmit.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalSubmit.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalSubmit.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalSubmit.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalTest.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalTest.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalTest.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalTest.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalUpdate.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalUpdate.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalUpdate.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/ExperimentalUpdate.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/Export/lib/cmake/pugixml/pugixml-targets-noconfig.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/Export/lib/cmake/pugixml/pugixml-targets.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/Nightly.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/Nightly.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/Nightly.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/Nightly.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyBuild.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyBuild.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyBuild.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyBuild.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyConfigure.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyConfigure.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyConfigure.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyConfigure.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyCoverage.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyCoverage.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyCoverage.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyCoverage.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyMemCheck.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyMemCheck.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyMemCheck.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyMemCheck.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyMemoryCheck.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyMemoryCheck.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyMemoryCheck.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyMemoryCheck.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyStart.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyStart.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyStart.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyStart.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlySubmit.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlySubmit.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlySubmit.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlySubmit.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyTest.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyTest.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyTest.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyTest.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyUpdate.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyUpdate.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyUpdate.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/NightlyUpdate.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/pugixml-static.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/pugixml-static.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/pugixml-static.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/pugixml-static.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/pugixml-static.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/pugixml-static.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/pugixml-static.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/pugixml-static.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/pugixml-static.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/pugixml-static.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CTestTestfile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/DartConfiguration.tcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/pugixml-config-version.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/pugixml-config.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/pugixml-targets.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/pugixml.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/libpugixml.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/images/dom_tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/images/vs2005_link1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/images/vs2005_link2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/images/vs2005_pch1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/images/vs2005_pch2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/images/vs2005_pch3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/images/vs2005_pch4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/images/vs2010_link1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/images/vs2010_link2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/manual.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/quickstart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/character.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/custom_memory_management.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/include.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/load_error_handling.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/load_file.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/load_memory.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/load_options.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/load_stream.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/modify_add.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/modify_base.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/modify_remove.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/save_custom_writer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/save_declaration.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/save_file.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/save_options.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/save_stream.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/save_subtree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/text.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/transitions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/traverse_base.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/traverse_iter.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/traverse_predicate.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/traverse_rangefor.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/traverse_walker.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/tree.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/weekly-shift_jis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/weekly-utf-16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/weekly-utf-8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/xgconsole.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/xpath_error.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/xpath_query.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/xpath_select.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/docs/samples/xpath_variables.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/cocoapods_push.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/natvis/pugixml.natvis" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/natvis/pugixml_compact.natvis" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/nuget/build/native/pugixml-propertiesui.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/nuget/build/native/pugixml.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/nuget/pugixml.nuspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/nuget_build.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/premake4.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml-config.cmake.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml.pc.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml.podspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml_airplay.mkf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml_codeblocks.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml_codelite.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml_dll.rc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml_vs2005.vcproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml_vs2005_static.vcproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml_vs2008.vcproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml_vs2008_static.vcproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml_vs2010.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml_vs2010_static.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml_vs2013.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml_vs2013_static.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml_vs2015.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml_vs2015_static.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml_vs2017.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml_vs2017_static.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml_vs2019.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/scripts/pugixml_vs2019_static.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/src/pugiconfig.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/src/pugixml.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdparty/pugixml/src/pugixml.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/openStreetMap.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/openStreetMap.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/openStreetMap.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/openStreetMap.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/openStreetMap.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/openStreetMap.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/openStreetMap.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/openStreetMap.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/openStreetMap.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/openStreetMap.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/openStreetMap.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/openStreetMap.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/thirdparty/googletest/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/thirdparty/googletest/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/thirdparty/googletest/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/thirdparty/googletest/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/thirdparty/googletest/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/thirdparty/googletest/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/thirdparty/pugixml/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/thirdparty/pugixml/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/thirdparty/pugixml/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openStreetMap.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openStreetMap.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openStreetMap.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openStreetMap.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openStreetMap.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openStreetMap.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openStreetMap.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openStreetMap.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/openStreetMap.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/openStreetMap.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/thirdparty/googletest/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/thirdparty/googletest/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/thirdparty/pugixml/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/thirdparty/pugixml/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/thirdparty/pugixml/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/thirdparty/pugixml/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/thirdparty/pugixml/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/thirdparty/pugixml/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thirdparty/pugixml/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/thirdparty/pugixml/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -411,6 +69,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1qqJxx2g5EkXzPsdoIifeb7VFig" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -423,6 +89,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -580,11 +247,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="openStreetMap" TARGET_NAME="gmock" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -667,7 +329,9 @@
       <option name="presentableId" value="Default" />
       <updated>1617801437297</updated>
       <workItem from="1617801439060" duration="4816000" />
-      <workItem from="1618123649077" duration="6256000" />
+      <workItem from="1618123649077" duration="8574000" />
+      <workItem from="1618206875232" duration="3281000" />
+      <workItem from="1618253486803" duration="2130000" />
     </task>
     <task id="LOCAL-00001" summary="google test library">
       <created>1618145390244</created>
@@ -676,15 +340,35 @@
       <option name="project" value="LOCAL" />
       <updated>1618145390244</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="build">
+      <created>1618145885410</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618145885410</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="google test library" />
-    <option name="LAST_COMMIT_MESSAGE" value="google test library" />
+    <MESSAGE value="build" />
+    <option name="LAST_COMMIT_MESSAGE" value="build" />
   </component>
 </project>
