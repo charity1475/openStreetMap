@@ -17,7 +17,7 @@ class RoutePlanner {
     // The following methods have been made public so we can test them individually.
     void AddNeighbors(RouteModel::Node *current_node);
     float CalculateHValue(RouteModel::Node const *node);
-
+    std::vector<RouteModel::Node> ConstructFinalPath(RouteModel::Node *);
     RouteModel::Node *NextNode();
 
   private:
@@ -25,7 +25,6 @@ class RoutePlanner {
     std::vector<RouteModel::Node*> open_list;
     RouteModel::Node *start_node;
     RouteModel::Node *end_node;
-    std::vector<RouteModel::Node> ConstructFinalPath(RouteModel::Node *);
     float distance = 0.0f;
     RouteModel &m_Model;
 };

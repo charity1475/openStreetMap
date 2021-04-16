@@ -113,10 +113,10 @@ CMakeFiles/openStreetMap.dir/src/main.cpp.o
  /usr/local/include/io2d/xsystemheaders.h
  /usr/local/include/io2d/xtext.h
 CMakeFiles/openStreetMap.dir/src/model.cpp.o
+ ../thirdparty/pugixml/src/pugiconfig.hpp
+ ../thirdparty/pugixml/src/pugixml.hpp
  /home/charity/CLionProjects/openStreetMap/src/model.cpp
  /home/charity/CLionProjects/openStreetMap/src/model.h
- /home/charity/CLionProjects/openStreetMap/src/pugiconfig.hpp
- /home/charity/CLionProjects/openStreetMap/src/pugixml.hpp
 CMakeFiles/openStreetMap.dir/src/render.cpp.o
  /home/charity/CLionProjects/openStreetMap/src/model.h
  /home/charity/CLionProjects/openStreetMap/src/render.cpp

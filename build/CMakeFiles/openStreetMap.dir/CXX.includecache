@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+../thirdparty/pugixml/src/pugiconfig.hpp
+
+../thirdparty/pugixml/src/pugixml.hpp
+pugiconfig.hpp
+../thirdparty/pugixml/src/pugiconfig.hpp
+stddef.h
+-
+exception
+-
+iterator
+-
+iosfwd
+-
+string
+-
+
 /home/charity/CLionProjects/openStreetMap/src/main.cpp
 optional
 -
@@ -25,6 +41,22 @@ render.h
 /home/charity/CLionProjects/openStreetMap/src/render.h
 route_planner.h
 /home/charity/CLionProjects/openStreetMap/src/route_planner.h
+
+/home/charity/CLionProjects/openStreetMap/src/model.cpp
+model.h
+/home/charity/CLionProjects/openStreetMap/src/model.h
+pugixml.hpp
+/home/charity/CLionProjects/openStreetMap/src/pugixml.hpp
+iostream
+-
+string_view
+-
+cmath
+-
+algorithm
+-
+assert.h
+-
 
 /home/charity/CLionProjects/openStreetMap/src/model.h
 vector

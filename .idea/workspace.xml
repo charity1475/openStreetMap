@@ -46,7 +46,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5d0f71-5dc0-4b87-8111-e18e08d80729" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/count.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/src/model.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/src/route_model.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/src/route_planner.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/test/utest_rp_a_star_search.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/route_planner.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/route_planner.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/route_planner.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/route_planner.h" afterDir="false" />
     </list>
@@ -329,7 +344,7 @@
       <workItem from="1618253486803" duration="9386000" />
       <workItem from="1618442567103" duration="704000" />
       <workItem from="1618465618311" duration="597000" />
-      <workItem from="1618605769583" duration="4184000" />
+      <workItem from="1618605769583" duration="4912000" />
     </task>
     <task id="LOCAL-00001" summary="google test library">
       <created>1618145390244</created>
@@ -359,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618609233608</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="final path">
+      <created>1618611111270</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618611111270</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,6 +404,7 @@
     <MESSAGE value="google test library" />
     <MESSAGE value="build" />
     <MESSAGE value="start node" />
-    <option name="LAST_COMMIT_MESSAGE" value="start node" />
+    <MESSAGE value="final path" />
+    <option name="LAST_COMMIT_MESSAGE" value="final path" />
   </component>
 </project>

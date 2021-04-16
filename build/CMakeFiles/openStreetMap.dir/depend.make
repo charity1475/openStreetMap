@@ -112,10 +112,10 @@ CMakeFiles/openStreetMap.dir/src/main.cpp.o: /usr/local/include/io2d/xsurfacespr
 CMakeFiles/openStreetMap.dir/src/main.cpp.o: /usr/local/include/io2d/xsystemheaders.h
 CMakeFiles/openStreetMap.dir/src/main.cpp.o: /usr/local/include/io2d/xtext.h
 
+CMakeFiles/openStreetMap.dir/src/model.cpp.o: ../thirdparty/pugixml/src/pugiconfig.hpp
+CMakeFiles/openStreetMap.dir/src/model.cpp.o: ../thirdparty/pugixml/src/pugixml.hpp
 CMakeFiles/openStreetMap.dir/src/model.cpp.o: ../src/model.cpp
 CMakeFiles/openStreetMap.dir/src/model.cpp.o: ../src/model.h
-CMakeFiles/openStreetMap.dir/src/model.cpp.o: ../src/pugiconfig.hpp
-CMakeFiles/openStreetMap.dir/src/model.cpp.o: ../src/pugixml.hpp
 
 CMakeFiles/openStreetMap.dir/src/render.cpp.o: ../src/model.h
 CMakeFiles/openStreetMap.dir/src/render.cpp.o: ../src/render.cpp
