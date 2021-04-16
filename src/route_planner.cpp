@@ -12,14 +12,8 @@ RoutePlanner::RoutePlanner(RouteModel &model, float start_x, float start_y, floa
 
 }
 
-
-// TODO 3: Implement the CalculateHValue method.
-// Tips:
-// - You can use the distance to the end_node for the h value.
-// - Node objects have a distance method to determine the distance to another node.
-
 float RoutePlanner::CalculateHValue(RouteModel::Node const *node) {
-
+    return node->distance(*end_node);
 }
 
 
@@ -35,15 +29,13 @@ void RoutePlanner::AddNeighbors(RouteModel::Node *current_node) {
 }
 
 
-// TODO 5: Complete the NextNode method to sort the open list and return the next node.
-// Tips:
-// - Sort the open_list according to the sum of the h value and g value.
-// - Create a pointer to the node in the list with the lowest sum.
-// - Remove that node from the open_list.
-// - Return the pointer.
-
 RouteModel::Node *RoutePlanner::NextNode() {
-
+    std::sort(open_list.begin(), open_list.end(),[](const auto &_1st,const auto &_2nd){
+        return _1st->h_value + _1st->g_value < _2nd->h_value + _2nd->g_value;
+    });
+    RouteModel::Node *lowest_node = open_list.front();
+    open_list.erase(open_list.begin());
+    return lowest_node;
 }
 
 
