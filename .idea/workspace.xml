@@ -47,8 +47,15 @@
   <component name="ChangeListManager">
     <list default="true" id="6b5d0f71-5dc0-4b87-8111-e18e08d80729" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/libpugixml.a" beforeDir="false" afterPath="$PROJECT_DIR$/lib/libpugixml.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openStreetMap.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openStreetMap.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openStreetMap.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openStreetMap.dir/src/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openStreetMap.dir/src/model.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openStreetMap.dir/src/model.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openStreetMap.dir/src/render.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openStreetMap.dir/src/render.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openStreetMap.dir/src/route_model.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openStreetMap.dir/src/route_model.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openStreetMap.dir/src/route_planner.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/openStreetMap.dir/src/route_planner.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/thirdparty/pugixml/CMakeFiles/pugixml-static.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/thirdparty/pugixml/CMakeFiles/pugixml-static.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/route_planner.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/route_planner.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -330,7 +337,7 @@
       <workItem from="1618253486803" duration="9386000" />
       <workItem from="1618442567103" duration="704000" />
       <workItem from="1618465618311" duration="597000" />
-      <workItem from="1618605769583" duration="7275000" />
+      <workItem from="1618605769583" duration="7912000" />
     </task>
     <task id="LOCAL-00001" summary="google test library">
       <created>1618145390244</created>
@@ -374,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618611959656</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="next node">
+      <created>1618616126479</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1618616126479</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,6 +413,7 @@
     <MESSAGE value="start node" />
     <MESSAGE value="final path" />
     <MESSAGE value="path draw" />
-    <option name="LAST_COMMIT_MESSAGE" value="path draw" />
+    <MESSAGE value="next node" />
+    <option name="LAST_COMMIT_MESSAGE" value="next node" />
   </component>
 </project>

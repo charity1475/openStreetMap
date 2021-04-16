@@ -26,22 +26,6 @@ render.h
 route_planner.h
 /home/charity/CLionProjects/openStreetMap/src/route_planner.h
 
-/home/charity/CLionProjects/openStreetMap/src/model.cpp
-model.h
-/home/charity/CLionProjects/openStreetMap/src/model.h
-pugixml.hpp
-/home/charity/CLionProjects/openStreetMap/src/pugixml.hpp
-iostream
--
-string_view
--
-cmath
--
-algorithm
--
-assert.h
--
-
 /home/charity/CLionProjects/openStreetMap/src/model.h
 vector
 -
