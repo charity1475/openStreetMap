@@ -34,6 +34,7 @@ class RouteModel : public Model {
 
     RouteModel(const std::vector<std::byte> &xml);
     Node &FindClosestNode(float x, float y);
+    auto &GetNodeToRoad(){ return node_to_road; };
     auto &SNodes() { return m_Nodes; }
     std::vector<Node> path;
     

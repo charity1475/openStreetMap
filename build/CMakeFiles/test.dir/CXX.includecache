@@ -334,22 +334,6 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/charity/CLionProjects/openStreetMap/src/model.cpp
-model.h
-/home/charity/CLionProjects/openStreetMap/src/model.h
-pugixml.hpp
-/home/charity/CLionProjects/openStreetMap/src/pugixml.hpp
-iostream
--
-string_view
--
-cmath
--
-algorithm
--
-assert.h
--
-
 /home/charity/CLionProjects/openStreetMap/src/model.h
 vector
 -
@@ -358,22 +342,6 @@ unordered_map
 string
 -
 cstddef
--
-
-/home/charity/CLionProjects/openStreetMap/src/pugiconfig.hpp
-
-/home/charity/CLionProjects/openStreetMap/src/pugixml.hpp
-pugiconfig.hpp
-/home/charity/CLionProjects/openStreetMap/src/pugiconfig.hpp
-stddef.h
--
-exception
--
-iterator
--
-iosfwd
--
-string
 -
 
 /home/charity/CLionProjects/openStreetMap/src/route_model.cpp
