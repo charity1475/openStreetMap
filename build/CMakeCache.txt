@@ -373,6 +373,9 @@ SLURM_SRUN_COMMAND:FILEPATH=SLURM_SRUN_COMMAND-NOTFOUND
 //Path to a program.
 SVNCOMMAND:FILEPATH=SVNCOMMAND-NOTFOUND
 
+//No help, variable specified on the command line.
+TESTING:UNINITIALIZED=AStarSearch
+
 //Path to a program.
 _Python_EXECUTABLE:FILEPATH=/usr/bin/python3.8
 

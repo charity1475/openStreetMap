@@ -10,11 +10,10 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/include"
-  "../thirdparty/googletest/googlemock/include"
-  "../thirdparty/googletest/googlemock"
   "../thirdparty/googletest/googletest/include"
   "../thirdparty/googletest/googletest"
+  "../thirdparty/googletest/googlemock/include"
+  "../thirdparty/googletest/googlemock"
   )
 
 # Targets to which this target links.

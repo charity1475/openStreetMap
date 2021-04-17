@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/include -I/home/charity/CLionProjects/openStreetMap/thirdparty/pugixml/src -isystem /home/charity/CLionProjects/openStreetMap/thirdparty/googletest/googletest/include -isystem /home/charity/CLionProjects/openStreetMap/thirdparty/googletest/googletest 
+CXX_INCLUDES = -I/home/charity/CLionProjects/openStreetMap/thirdparty/pugixml/src -isystem /home/charity/CLionProjects/openStreetMap/thirdparty/googletest/googletest/include -isystem /home/charity/CLionProjects/openStreetMap/thirdparty/googletest/googletest 
 

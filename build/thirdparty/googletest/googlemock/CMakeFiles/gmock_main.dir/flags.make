@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREA
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/include -isystem /home/charity/CLionProjects/openStreetMap/thirdparty/googletest/googlemock/include -isystem /home/charity/CLionProjects/openStreetMap/thirdparty/googletest/googlemock -isystem /home/charity/CLionProjects/openStreetMap/thirdparty/googletest/googletest/include -isystem /home/charity/CLionProjects/openStreetMap/thirdparty/googletest/googletest 
+CXX_INCLUDES = -isystem /home/charity/CLionProjects/openStreetMap/thirdparty/googletest/googletest/include -isystem /home/charity/CLionProjects/openStreetMap/thirdparty/googletest/googletest -isystem /home/charity/CLionProjects/openStreetMap/thirdparty/googletest/googlemock/include -isystem /home/charity/CLionProjects/openStreetMap/thirdparty/googletest/googlemock 
 
